@@ -1,0 +1,6 @@
+string1=raw_input()
+string1=string1.split()
+num=int(string1[0])
+num1=int(string1[1])
+power=pow(num,num1)
+print(power)
