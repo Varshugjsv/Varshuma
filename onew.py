@@ -4,7 +4,9 @@ for i in range(len(num)):
         flag=0
     else:
         flag=1
+        break
 if(flag!=1):
     print("Yes")
 else:
     print("No")
+    
