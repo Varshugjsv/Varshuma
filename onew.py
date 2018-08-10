@@ -1,5 +1,5 @@
-num=raw_input()
-if ord(num)>=48 and ord(num)<=57:
+n=raw_input()
+if ord(n)>=48 and ord(n)<=57:
     print("Yes")
 else:
     print("No")
