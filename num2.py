@@ -6,5 +6,9 @@ for i in range(1,num):
     num3=num1+num2
     num1=num2
     num2=num3
-    print(num3,end=" ")
+    if(i==num-1):
+        print(num3)
+    else:
+        print(num3,end=" ")
+
 
