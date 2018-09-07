@@ -1,0 +1,10 @@
+str1=raw_input()
+str1=str1.split()
+num=int(str1[1])
+str2=raw_input()
+#str2=str2.split()
+ch=str(num)
+if(str2.find(ch)!=-1):
+    print("yes")
+else:
+    print("no")
